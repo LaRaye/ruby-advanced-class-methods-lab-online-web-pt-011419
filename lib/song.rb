@@ -54,7 +54,10 @@ class Song
     song_arr[-1] = song_arr[-1].split(".")[0]
     song_name = song_arr[-1]
     artist_name = song_arr[0]
-    song = 
+    song = Song.new
+    song.name = song_name
+    song.artist_name = artist_name
+    song
     binding.pry 
    
   end
