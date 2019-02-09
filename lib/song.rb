@@ -50,7 +50,8 @@ class Song
   end
   
   def Song.new_from_filename(filename)
-    
+    song_arr = filename.split(" - ")
+    binding.pry 
    
   end
 end
