@@ -51,7 +51,7 @@ class Song
   
   def Song.new_from_filename(filename)
     song_arr = filename.split(" - ")
-    song_arr[-1] = song_arr[-1].split(".")[]
+    song_arr[-1] = song_arr[-1].split(".")[0]
     binding.pry 
    
   end
